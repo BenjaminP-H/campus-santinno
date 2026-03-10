@@ -1,0 +1,25 @@
+# WordPress config with secrets
+wp-config.php
+
+# Database dumps/backups
+*.sql
+*.sql.gz
+
+# Cache, upgrade, and backups
+wp-content/cache/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/backup-db/
+wp-content/backups/
+wp-content/ai1wm-backups/
+wp-content/updraft/
+wp-content/wflogs/
+wp-content/litespeed/
+
+# Logs
+wp-content/debug.log
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

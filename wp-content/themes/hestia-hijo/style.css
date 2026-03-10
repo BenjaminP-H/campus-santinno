@@ -1,0 +1,17 @@
+/* 
+Theme Name: hestia hijo
+Template: hestia
+Description: Simone is a responsive, accessible, high-resolution theme 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html 
+Text Domain: hestia-hijo 
+*/ 
+/********* Aquí empieza su personalización */ 
+
+.site-footer a img {
+    transition: transform 0.2s;
+}
+
+.site-footer a img:hover {
+    transform: scale(1.2);
+}
+
