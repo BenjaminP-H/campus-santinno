@@ -15,3 +15,289 @@ Text Domain: hestia-hijo
     transform: scale(1.2);
 }
 
+/* About section background */
+.hestia-about {
+    background-color: var(--hestia-primary-color, #f4911f) !important;
+    background-image: none !important;
+    padding: 90px 0 100px;
+}
+
+.home .main-raised > section.hestia-about {
+    background-color: var(--hestia-primary-color, #f4911f) !important;
+}
+
+.hestia-about.section-image {
+    background-image: none !important;
+}
+
+/* About section card */
+.hestia-about .container {
+    background: transparent !important;
+    box-shadow: none;
+    padding: 0;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.hestia-about .hestia-about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background: transparent !important;
+}
+
+.hestia-about .wp-block-themeisle-blocks-advanced-columns {
+    background: #ffffff !important;
+    border-radius: 22px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+    padding: 70px 80px !important;
+    margin: 0 auto !important;
+    max-width: 80% !important;
+    width: 80% !important;
+    box-sizing: border-box;
+    overflow: hidden;
+    --columns-width: 1320px;
+    float: none !important;
+    clear: both !important;
+}
+
+.hestia-about .contact-card {
+    background: #ffffff !important;
+    border-radius: 22px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+    width: 80% !important;
+    max-width: 80% !important;
+    margin: 0 auto !important;
+    margin-top: 90px !important;
+}
+
+.hestia-about .acerca,
+.hestia-about .contacto,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns.acerca,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns.contacto {
+    position: relative;
+    border: 2px solid var(--hestia-primary-color, #f4911f) !important;
+    border-radius: 22px !important;
+    overflow: visible !important;
+}
+
+.hestia-about .contacto,
+.hestia-about .contacto p,
+.hestia-about .contacto span,
+.hestia-about .contacto strong,
+.hestia-about .contacto em,
+.hestia-about .contacto h2,
+.hestia-about .contacto h3,
+.hestia-about .contacto h4,
+.hestia-about .contacto h5,
+.hestia-about .contacto h6,
+.hestia-about .contacto li {
+    text-align: left !important;
+}
+
+.hestia-about .contact-plain {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 16px 0 10px;
+}
+
+.hestia-about .contact-plain p {
+    margin: 0;
+}
+
+.hestia-about .contact-plain .contact-icon {
+    color: #f4911f;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+/* Decorative corners for cards */
+.hestia-about .acerca::before,
+.hestia-about .contacto::before,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns.acerca::before,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns.contacto::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #f4911f;
+    border-radius: 50%;
+    box-shadow: 12px -10px 0 -6px rgba(255, 255, 255, 1),
+                12px -10px 0 -4px #f4911f;
+    pointer-events: none;
+}
+
+.hestia-about .acerca::before,
+.hestia-about .contacto::before,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns.acerca::before,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns.contacto::before {
+    content: "";
+    position: absolute;
+    top: 70px;
+    right: -4px;
+    width: 100px;
+    height: 2px;
+    background: #f4911f;
+    transform: rotate(45deg);
+    transform-origin: top right;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.hestia-about .wp-block-themeisle-blocks-advanced-columns.alignfull,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns.alignwide {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    width: 86% !important;
+    max-width: 86% !important;
+    float: none !important;
+}
+
+.hestia-about .wp-block-themeisle-blocks-advanced-columns + .wp-block-themeisle-blocks-advanced-columns {
+    margin-top: 90px !important;
+}
+
+.hestia-about .wp-block-themeisle-blocks-advanced-columns:last-of-type {
+    margin-bottom: 0 !important;
+}
+
+.hestia-about .wp-block-themeisle-blocks-advanced-columns .wp-block-themeisle-blocks-advanced-columns-overlay {
+    background: transparent !important;
+}
+
+.hestia-about .wp-block-themeisle-blocks-advanced-columns .innerblocks-wrap,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns .alignfull {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    word-break: normal !important;
+    overflow-wrap: anywhere;
+}
+
+.hestia-about .wp-block-themeisle-blocks-advanced-column {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    box-sizing: border-box;
+}
+
+.hestia-about .wp-block-themeisle-blocks-advanced-columns,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns p,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns li,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns h1,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns h2,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns h3,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns h4,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns h5,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns h6 {
+    color: #999999 !important;
+}
+
+.hestia-about .wp-block-themeisle-blocks-advanced-columns,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns p,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns li,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns h1,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns h2,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns h3,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns h4,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns h5,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns h6 {
+    text-align: center !important;
+}
+
+.hestia-about .wp-block-themeisle-blocks-advanced-column,
+.hestia-about .wp-block-column {
+    text-align: center !important;
+}
+
+.hestia-about .wp-block-themeisle-blocks-advanced-columns ul,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns ol {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+@media (max-width: 768px) {
+    .hestia-about .wp-block-themeisle-blocks-advanced-columns {
+        padding: 30px 22px !important;
+        width: 92% !important;
+        max-width: 92% !important;
+    }
+    .hestia-about .contact-card {
+        width: 92% !important;
+        max-width: 92% !important;
+    }
+}
+.hestia-about .acerca::after,
+.hestia-about .contacto::after,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns.acerca::after,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns.contacto::after {
+    content: "";
+    position: absolute;
+    top: 72px;
+    right: -4px;
+    width: 78px;
+    height: 78px;
+    border-top: 2px solid #f4911f;
+    border-right: 2px solid #f4911f;
+    background: transparent;
+    pointer-events: none;
+}
+
+.hestia-about .fold-vert {
+    position: absolute;
+    top: 0px;
+    right: 72px;
+    width: 2px;
+    height: 73px;
+    background: #f4911f;
+    z-index: 6;
+    pointer-events: none;
+}
+
+.hestia-about .fold-fill {
+    position: absolute;
+    top: 0px;
+    right: -4px;
+    width: 78px;
+    height: 78px;
+    background: #f4911f;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.hestia-about .pin-image {
+    position: absolute;
+    top: -2px;
+    left: 6px;
+    width: 80px;
+    height: 80px;
+    background: url("chincheta.jpg") no-repeat center;
+    background-size: contain;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.hestia-about .acerca .fold-line,
+.hestia-about .contacto .fold-line,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns.acerca .fold-line,
+.hestia-about .wp-block-themeisle-blocks-advanced-columns.contacto .fold-line {
+    position: absolute;
+    top: 72px;
+    right: -4px;
+    width: 78px;
+    height: 2px;
+    background: #f4911f;
+    transform: rotate(0deg);
+    pointer-events: none;
+}
